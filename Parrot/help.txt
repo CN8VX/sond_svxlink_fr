@@ -1,3 +1,0 @@
-Le module du perroquet dit tout ce que vous dites. Ceci peut être utilisé comme un répéteur ou juste vous  réentendre. 
-L'envoi d'une commande DTMF au module perroquet, il relit les chiffres reçus. 
-Quitter le module par l'envoi d'un signe dièse.
