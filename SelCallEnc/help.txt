@@ -1,5 +1,0 @@
-Le module encodeur selectif appel est utilisé pour transmettre des séquences de tonalité d'appel sélectif. 
-Pour envoyer une séquence d'appel selectif, envoyer une commande DTMF où les deux premiers chiffres représentent l'appel SEL standard à utiliser, et le reste des chiffres sont la séquence réelle des chiffres à envoyer. 
-Les normes disponibles sont: 
-
-01,Z V E I 1, 02,Z V E I 2, 03,Z V E I 3, 04,P Z V E I, 05,D Z V E I, 06,E E A, 07,C C I R 1, 08,C C I R 2, 09,V D E W, 10,C C I T T, 11,NATEL, 12,E I A, 13,EURO, 14,MOD A T, 15,P D Z V E I, 16,P C C I R, 17,AUTO A
