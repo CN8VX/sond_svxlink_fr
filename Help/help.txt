@@ -1,6 +1,0 @@
-Le système SVXLink est un système vocal multi services utiliser par les radioamateurs. 
-SVXLink est contrôlé par des commandes DTMF composé d'un, ou plusieurs chiffres suivi du signe dièse.
-L'envoi d'une étoile, le système s'identifira lui-même. 
-Le système est divisé en plusieurs modules, chacun effectuant une tache spécifique.
-Pour activer un module envoyez le numéro d'identification du module suivi du signe dièse.
-La plupart des modules lorsqu'ils sont  actifs vont dirent leurs messages d'aide avec  l'envoi de commande 0 plus dièze.
