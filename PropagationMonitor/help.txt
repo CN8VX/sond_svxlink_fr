@@ -1,0 +1,3 @@
+Le moniteur de propagation recoit des alertes sur la propagation d'ondes métriques de VHF DX.net,est good DX.nett.
+Et sont annoncées par des messages vocaux dès qu'ils sont reçus. 
+Exemples de messages annoncés: E sporadique, traupo, et au-Rora ouverture

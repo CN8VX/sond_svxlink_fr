@@ -1,0 +1,5 @@
+
+This is a svxlink system. It is a multi-purpose voice Services System for ham radio Use.
+svxlink is controlled by DTMF commands consisting of one or more digits followed by a number sign. Sending a single star will make the system identify itself. The system is divided into several modules each performing a specific task you activate the module by sending its module ID number sign. Most modules will play their help message. It's sending command zero when it's activated.
+
+
