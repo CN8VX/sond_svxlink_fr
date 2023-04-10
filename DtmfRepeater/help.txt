@@ -1,0 +1,4 @@
+Le module répéteur DTMF est utilisé pour retransmettre les chiffres DTMF reçus.
+Cela peut être utilisé pour contrôler d'autres stations à distance qui sont également contrôlés par DTMF.
+Tous les chiffres DTMF reçus seront retransmis et ignorés par svxLink.
+Désactiver le module en envoyant le signe dièse pendant au moins 3 secondes

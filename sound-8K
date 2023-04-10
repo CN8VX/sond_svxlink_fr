@@ -1,0 +1,45 @@
+#!/bin/sh
+#####################################################################
+# instalation des fichiers sons dans /usr/share/svxlink/sounds/fr_FR
+#
+# Ver 0.1   29/10/2011   F1SMF
+#
+# ce script utilise les script play_sound.sh , filter_sounds.sh
+#
+######################################################################
+
+# 
+SRC_DIR=$( pwd )
+DEST_DIR="/usr/share/svxlink/sounds/fr_FR"
+REP_TCL="events.d"
+warning()
+
+{
+  echo -e "\033[31m*** WARNING: $@\033[0m";
+}
+
+# Check filter_sounds.cfg 
+if [ ! -r "${SRC_DIR}/filter_sounds.cfg" ]; then
+  echo "*** ERROR: Configuration file ${SRC_DIR}/filter_sounds.cfg is missing"
+  exit 1
+fi
+
+if [ ! -r "${SRC_DIR}/filter_sounds.sh" ]; then
+  echo "*** ERROR: le script ${SRC_DIR}/filter_sounds.sh non present"
+  exit 1
+fi
+
+if [ ! -r "${SRC_DIR}/play_sound.sh" ]; then
+  echo "*** ERROR: le script ${SRC_DIR}/play_sound.sh non present"
+  exit 1
+fi
+
+
+DEST_EVT="$DEST_DIR/$REP_TCL/locale.tcl"
+SRC_EVT="$SRC_DIR/$REP_TCL/locale.tcl"
+[ ! -d $( dirname $DEST_EVT ) ] && mkdir -p $(dirname $DEST_EVT)
+cp "$SRC_EVT" "$DEST_EVT"
+
+$SRC_DIR/filter_sounds.sh -r 8000 $SRC_DIR $DEST_DIR
+ 
+
