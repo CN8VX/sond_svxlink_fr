@@ -1,5 +1,0 @@
-Le module  Echolink est utilisé pour se connecter à d'autres stations du réseau Echolink.
-Pour vous connectez à une autre station, il suffit d'envoyer son numéro suivi de dièse.
-Pour vous déconnectez de la station, envoyer le signe dièse.
-Pour quitter le module, envoyer le signe dièse.
-
