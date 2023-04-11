@@ -1,4 +1,5 @@
-C’est une copier des fichier sons pour SVXLink  de F5VMR que vous pouvez les télécharger depuis son site : https://g4nab.co.uk/wp-content/uploads/2022/11/fr_FR.tar.gz.
+C’est une copier des fichier sons en langue français pour SVXLink de F5VMR.
+Vous pouvez visiter son site : https://g4nab.co.uk
 
 J’ai fait des modifications afin qu'ils soient compatibles avec les répéteurs SVXLink du MAROC.
 
