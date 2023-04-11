@@ -6,9 +6,9 @@ J’ai fait des modifications afin qu'ils soient compatibles avec les répéteur
 
 Pour ajouter les fichiers de sons fr_FR alors suivez ses étapes:
 
-cd /usr/share/svxlink/sounds
+- cd /usr/share/svxlink/sounds
 
-sudo git clone https://github.com/CN8VX/CN8VX-fr_FR.git fr_FR
+- sudo git clone https://github.com/CN8VX/CN8VX-fr_FR.git fr_FR
 
 73’s de CN8VX      
 
