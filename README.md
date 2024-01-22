@@ -1,14 +1,33 @@
-C'est une copie des fichiers sons en langue français pour SVXLink de F5VMR.
+# French:
+# Son en langue française pour répéteur svxlink.
+C'est une copie des fichiers sons en langue français pour SVXLink de F5VMR que vous pouvez visiter son site: https://g4nab.co.uk 
 
-Vous pouvez visiter son site : https://g4nab.co.uk
+J’ai fait des modifications et des améliorations afin qu'ils soient compatibles avec les répéteurs SVXLink du MAROC.
 
-J’ai fait des modifications afin qu'ils soient compatibles avec les répéteurs SVXLink du MAROC.
+Pour ajouter les fichiers de sons en langue français, il faut suivre ses étapes si dessous:
+```
+cd /usr/share/svxlink/sounds
+```
+```
+sudo git clone https://github.com/CN8VX/CN8VX-fr_FR.git fr_FR
+```
+Un dossier nommer fr_FR sera créé où il sera installé les fichiers en langue français.
 
-Pour ajouter les fichiers de sons fr_FR alors suivez ses étapes:
+73 de CN8VX      
 
-- cd /usr/share/svxlink/sounds
+# English:
+# Sound French for svxlink repeater.
+This is a copy of the sound files in French for SVXLink from F5VMR that you can visit his site: https://g4nab.co.uk
 
-- sudo git clone https://github.com/CN8VX/CN8VX-fr_FR.git fr_FR
+I have made modifications and improvements so that they are compatible with SVXLink repeaters from MOROCCO.
 
-73’s de CN8VX      
+To add sound files in French, you must follow the steps below:
+```
+cd /usr/share/svxlink/sounds
+```
+```
+sudo git clone https://github.com/CN8VX/CN8VX-fr_FR.git fr_FR
+```
+A folder named fr_FR will be created where the French language files will be installed.
 
+73 de CN8VX
